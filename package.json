@@ -1,0 +1,37 @@
+{
+  "name": "fluidecho",
+  "description": "FluidEcho.",
+  "version": "0.0.1",
+  "main": "index.js",
+  "homepage": "https://github.com/fluidecho/fluidecho",
+  "author": "Mark W. B. Ashcroft <mark@fluidecho.com> (http://fluidecho.com)",
+  "contributors": [
+    "Mark W. B. Ashcroft <mark@fluidecho.com>"
+  ],
+  "dependencies": {
+    "naked-websocket": "~0.0.7",
+    "preview": "~0.1.1",
+    "smp": "~1.0.8"  
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/fluidecho/fluidecho.git"
+  },
+  "bugs": {
+    "url": "http://github.com/fluidecho/fluidecho/issues",
+    "email": "mail@fluidecho.com"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "license": "MIT",
+  "keywords": [
+  ],
+  "directories": {
+    "example": "examples"
+  },
+  "scripts": {
+    "test": "node test.js"
+  }
+}
